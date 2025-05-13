@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArcelorMittal Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="relative text-white min-h-screen">
+
+  <!-- Seção do Banner com a imagem de fundo -->
+  <div class="relative bg-cover bg-center" style="background-image: url('fundo.jpg'); height: 500px;">
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative z-10">
+      <!-- Navbar -->
+      <header class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+        <img src="logo-arcelormittal.gif" alt="Logo ArcelorMittal" class="h-10" />
+        <nav class="space-x-6 text-sm font-medium">
+          <a href="#" class="hover:underline">Produtos</a>
+          <a href="#" class="hover:underline">Vantagens</a>
+          <a href="#" class="hover:underline">Sobre Nós</a>
+        </nav>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="flex flex-col md:flex-row items-center justify-between px-8 py-16 max-w-7xl mx-auto">
+        <div class="md:w-1/2 space-y-5">
+          <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+            
+          </h1>
+          <p class="text-lg"></p>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Seção de Produtos em Destaque -->
+  <section class="produtos-destaque py-16 bg-gray-900 bg-opacity-80">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-semibold text-red-600">Nossos Produtos</h2>
+      <p class="text-lg text-gray-400">Oferecemos uma ampla variedade de produtos em aço para atender às necessidades do seu projeto.</p>
+    </div>
+    <div class="flex justify-center gap-8">
+      <div class="produto bg-white text-center p-6 rounded-lg shadow-lg hover:transform hover:scale-105 transition duration-300">
+        <img src="icone-1.png" alt="Aço para Construção" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold">Aço para Construção</h3>
+        <p class="text-gray-600">Barras, perfis e chapas para construção civil e estruturas metálicas.</p>
+      </div>
+      <div class="produto bg-white text-center p-6 rounded-lg shadow-lg hover:transform hover:scale-105 transition duration-300">
+        <img src="icone-2.png" alt="Aço Automotivo" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold">Aço Automotivo</h3>
+        <p class="text-gray-600">Chapas e componentes de alta resistência para a indústria automotiva.</p>
+      </div>
+      <div class="produto bg-white text-center p-6 rounded-lg shadow-lg hover:transform hover:scale-105 transition duration-300">
+        <img src="icone-3.png" alt="Aço para Indústria" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold">Aço para Indústria</h3>
+        <p class="text-gray-600">Soluções em aço para máquinas, equipamentos e processos industriais.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/+5547997150231" target="_blank" id="whatsapp-button">
+    <img src="whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon" />
+  </a>
+
+  <style>
+    /* Estilo para o botão do WhatsApp */
+    #whatsapp-button {
+      position: fixed;
+      bottom: 20px;  /* Distância do fundo */
+      right: 20px;   /* Distância da direita */
+      z-index: 1000;
+    }
+
+    .whatsapp-icon {
+      width: 60px;   /* Ajuste o tamanho do ícone */
+      height: 60px;  /* Ajuste o tamanho do ícone */
+      background: linear-gradient(to right, #25D366, #128C7E);  /* Cor de fundo do botão */
+      border-radius: 50%;
+      padding: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+/* Estilo para o botão do WhatsApp */
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(to right, #25D366, #128C7E);
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo da Seção de Orçamento */
+.orçamento-section {
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+
+.orçamento-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.orçamento-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #128C7E;
+}
+
+/* Estilo da Seção Sobre */
+.sobre-arcelormittal h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sobre-arcelormittal p {
+  font-size: 18px;
+  line-height: 1.6;
+}
